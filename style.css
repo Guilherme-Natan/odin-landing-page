@@ -49,12 +49,27 @@ body {
   background-color: #3882f6;
   border: none;
   color: #e5e7eb;
-  padding: 15px 30px;
-  text-align: center;
   font-size: 16px;
   font-weight: 700;
-  cursor: pointer;
   border-radius: 8px;
+}
+
+.box {
+  margin: 100px 200px;
+  padding: 50px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.button {
+  padding: 15px 30px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button-inside-cta {
+  border: solid 2px #e5e7eb;
 }
 
 .header a,
@@ -119,4 +134,22 @@ nav li {
 .quote-author {
   font-size: 20px;
   font-weight: 900;
+}
+
+.cta-header {
+  font-size: 24px;
+  padding-bottom: 2px;
+}
+
+.cta-subtext {
+  font-weight: normal;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+  background-color: #1f2937;
+  color: #e5e7eb;
+  font-size: 20px;
 }
